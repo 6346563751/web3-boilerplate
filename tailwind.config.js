@@ -7,11 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      keyframes: {
+        wiggle: {
+          '0%': { background: 'rgba(0,0,0,0)' },
+          '100%': { background: 'rgba(0,0,0,0.2)' },
+        }
       },
+      animation: {
+        wiggle: 'wiggle 1s',
+      }
     },
   },
   plugins: [],
