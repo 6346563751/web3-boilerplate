@@ -2,8 +2,9 @@
 
 ## Roadmap
 
-- [ ] Metamask integration
-- [ ] Soon
+- [x] Metamask integration
+- [ ] Log out button
+- [ ] Other integrations ?
 
 ## Stack
 
